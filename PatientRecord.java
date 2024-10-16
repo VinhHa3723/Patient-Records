@@ -7,12 +7,12 @@ import java.util.Objects;
  */
 public class PatientRecord
 {
-	  private int id;
-    private int month;
-    private int day;
-    private int year;
-    private String reason;
-    private String treatment;
+   	private int id;
+   	private int month;
+    	private int day;
+    	private int year;
+    	private String reason;
+    	private String treatment;
 	
 	/** 
 	*	Constructor with specified parameters that initializes the state of 
@@ -29,11 +29,11 @@ public class PatientRecord
 	public PatientRecord(int id, int month, int day, int year, String reason, String treatment) throws BadVisitDateException
 	{
 		this.id = id;
-        this.month = month;
-        this.day = day;
-        this.year = year;
-        this.reason = reason;
-        this.treatment = treatment;
+        	this.month = month;
+        	this.day = day;
+        	this.year = year;
+        	this.reason = reason;
+        	this.treatment = treatment;
 		
 		// Checks to see if the date meets requirements, throws an 
 		// exception if not.
