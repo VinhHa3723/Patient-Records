@@ -17,7 +17,6 @@ public class PatientRecord
 	/** 
 	*	Constructor with specified parameters that initializes the state of 
 	*	the object when it is created.
-	*
 	*	@param id 		The patient's ID number.
 	*	@param month 	The month of the visit (1-12).
 	*	@param day 		The day of the visit (1-31). 
