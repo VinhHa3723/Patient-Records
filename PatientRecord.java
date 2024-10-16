@@ -34,8 +34,6 @@ public class PatientRecord
         	this.reason = reason;
         	this.treatment = treatment;
 		
-		// Checks to see if the date meets requirements, throws an 
-		// exception if not.
 		if (month < 1 || month > 12)
 		{
 			throw new BadVisitDateException("Month not in range 1-12");
