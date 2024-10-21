@@ -15,15 +15,15 @@ public class PatientRecord
     	private String treatment;
 	
 	/** 
-	*	Constructor with specified parameters that initializes the state of 
-	*	the object when it is created.
-	*	@param id 		The patient's ID number.
-	*	@param month 	The month of the visit (1-12).
-	*	@param day 		The day of the visit (1-31). 
-	*	@param year 	The year of the visit (>1900).
-	*	@param reason 	The reason for the visit. 
-	*	@param treatment The prescribed treatment.
-	* 	@throws BadVisitDateException 	If the provided date is not valid.
+	    Constructor with specified parameters that initializes the state of 
+	    the object when it is created.
+	    @param id 		The patient's ID number.
+	    @param month 	The month of the visit (1-12).
+	    @param day 		The day of the visit (1-31). 
+	    @param year 	The year of the visit (>1900).
+	    @param reason 	The reason for the visit. 
+	    @param treatment    The prescribed treatment.
+	    @throws BadVisitDateException   If the provided date is not valid.
 	*/
 	public PatientRecord(int id, int month, int day, int year, String reason, String treatment) throws BadVisitDateException
 	{
@@ -49,8 +49,8 @@ public class PatientRecord
 	}
 	
 	/** 
-	*	Displays a summary of the patient's information with correct format.
-	*	@return A string representation of the patient's records.	
+	    Displays a summary of the patient's information with correct format.
+	    @return A string representation of the patient's records.	
 	*/
 	public String toString()
 	{
@@ -59,8 +59,8 @@ public class PatientRecord
 	}
 	
 	/** 
-	*	Create a hash code value for a patient's record.
-	*	@return result The computed hash code.
+	    Create a hash code value for a patient's record.
+	    @return result The computed hash code.
 	*/
 	@Override
 	public int hashCode()
